@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-cd infraestructure
+cd infrastructure
 
 # Declara variavel para reutilização nas validações do diretório
 PACKAGE="package"
