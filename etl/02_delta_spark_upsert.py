@@ -3,7 +3,7 @@ import sys
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, min, max, lit
-
+#
 # Configuracao de logs de aplicacao
 logging.basicConfig(stream=sys.stdout)
 logger = logging.getLogger('datalake_enem_small_upsert')
